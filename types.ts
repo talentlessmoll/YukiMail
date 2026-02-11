@@ -1,5 +1,5 @@
 
-export type EmailProvider = 'google' | 'emailjs' | 'resend';
+export type EmailProvider = 'google' | 'emailjs';
 
 export interface EmailJSAccount {
   id: string;
@@ -30,4 +30,4 @@ export interface User {
   };
 }
 
-export type AppView = 'dashboard' | 'compose' | 'recipients' | 'sending' | 'settings';
+export type AppView = 'dashboard' | 'compose' | 'recipients' | 'sending' | 'settings' | 'admin';
